@@ -2,3 +2,8 @@ template-file-path: ./CloudFormation/Create-EC2.yaml
 
 parameters:
   MyIP: 189.133.33.94/32
+
+tags:
+  Project: DevOpsAgent
+  Environment: Dev
+  Owner: Gerardo
